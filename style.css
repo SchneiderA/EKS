@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    margin: 0; /* Kein Abstand an den Rändern */
+    padding: 0; /* Kein innerer Abstand */
+    background-color: #f4f4f4; /* Hintergrundfarbe */
+    overflow-x: hidden; /* Verhindert horizontales Scrollen */
 }
-
 header {
     background-color: #333;
     color: white;
@@ -18,11 +18,38 @@ nav a {
     text-decoration: none;
 }
 
+.form-group {
+    margin-bottom: 20px; /* Abstand zwischen den Form-Gruppen */
+}
+
+.form-control {
+    width: 100%; /* Volle Breite */
+    padding: 12px; /* Innenabstand */
+    margin-top: 5px; /* Abstand über den Eingabeelementen */
+    border: 1px solid #ccc; /* Rahmen */
+    border-radius: 4px; /* Abgerundete Ecken */
+    box-sizing: border-box; /* Padding und Border in die Breite einbeziehen */
+}
+
+.btn {
+    background-color: #191a19; /* Hintergrundfarbe für den Button */
+    color: white; /* Textfarbe für den Button */
+    padding: 12px; /* Innenabstand */
+    border: none; /* Kein Rahmen */
+    border-radius: 4px; /* Abgerundete Ecken */
+    cursor: pointer; /* Zeiger-Cursor */
+    width: 100%; /* Volle Breite */
+    font-size: 16px; /* Schriftgröße */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Dunklere Farbe beim Hover */
+}
 
 
 .container {
     width: 100%; 
-    padding: 20px; 
+    padding: 10px; 
     background-color: #f1ebeb; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     text-align: center;
