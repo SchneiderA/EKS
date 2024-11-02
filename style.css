@@ -1,11 +1,11 @@
 html, body {
-    height: 100%; /* Volle Höhe des Bildschirms */
-    margin: 0; /* Kein Rand */
+    height: 100%; 
+    margin: 0; 
     display: flex;
     flex-direction: column;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    overflow: hidden; /* Verhindert das Scrollen */
+    overflow: hidden; 
 }
 
 
@@ -23,31 +23,31 @@ nav a {
 }
 
 .form-group {
-    margin-bottom: 20px; /* Abstand zwischen den Form-Gruppen */
+    margin-bottom: 20px; 
 }
 
 .form-control {
-    width: 100%; /* Volle Breite */
-    padding: 12px; /* Innenabstand */
-    margin-top: 5px; /* Abstand über den Eingabeelementen */
-    border: 1px solid #ccc; /* Rahmen */
-    border-radius: 4px; /* Abgerundete Ecken */
-    box-sizing: border-box; /* Padding und Border in die Breite einbeziehen */
+    width: 100%; 
+    padding: 12px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
 }
 
 .btn {
-    background-color: #191a19; /* Hintergrundfarbe für den Button */
-    color: white; /* Textfarbe für den Button */
-    padding: 12px; /* Innenabstand */
-    border: none; /* Kein Rahmen */
-    border-radius: 4px; /* Abgerundete Ecken */
-    cursor: pointer; /* Zeiger-Cursor */
-    width: 100%; /* Volle Breite */
-    font-size: 16px; /* Schriftgröße */
+    background-color: #191a19; 
+    color: white; 
+    padding: 12px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-size: 16px; 
 }
 
 .btn:hover {
-    background-color: #45a049; /* Dunklere Farbe beim Hover */
+    background-color: #45a049; 
 }
 
 
