@@ -5,6 +5,9 @@ body {
     background-color: #f4f4f4; /* Hintergrundfarbe */
     overflow-x: hidden; /* Verhindert horizontales Scrollen */
 }
+
+
+
 header {
     background-color: #333;
     color: white;
@@ -54,6 +57,8 @@ nav a {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     text-align: center;
 }
+
+
 
 footer {
     background-color: #333;
