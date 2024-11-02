@@ -1,11 +1,12 @@
-body {
+html, body {
+    height: 100%; /* Volle Höhe des Bildschirms */
+    margin: 0; /* Kein Rand */
+    display: flex;
+    flex-direction: column;
     font-family: Arial, sans-serif;
-    margin: 0; /* Kein Abstand an den Rändern */
-    padding: 0; /* Kein innerer Abstand */
-    background-color: #f4f4f4; /* Hintergrundfarbe */
-    overflow-x: hidden; /* Verhindert horizontales Scrollen */
+    background-color: #f4f4f4;
+    overflow: hidden; /* Verhindert das Scrollen */
 }
-
 
 
 header {
@@ -51,6 +52,7 @@ nav a {
 
 
 .container {
+    flex: 1;
     width: 100%; 
     padding: 10px; 
     background-color: #f1ebeb; 
@@ -65,4 +67,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    margin-top: auto;
 }
